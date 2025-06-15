@@ -13,7 +13,7 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 | -- | ----- | -------------| ---------- |
 | 1  |  <audio controls preload=False><source src="audio/2_input_mix.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/2_drums.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/2_drums_mix.wav" type="audio/mpeg">Audio not supported by your browser.</audio>  |
 | 2 | <audio controls preload=False><source src="audio/1_input_mix.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1_piano.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1_piano_mix.wav" type="audio/mpeg">Audio not supported by your browser.</audio>  |
-| | | |
+| 3 | | |
 
 <details>
     <summary>Answer: </summary>
@@ -31,12 +31,12 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 <audio controls preload=False><source src="audio/song1_no_drums.wav" type="audio/mpeg">Audio not supported by your browser.</audio>
 
- Generated Stem | Overlapped | 
-| --------- | -------------- | 
-| <audio controls preload=False><source src="audio/song1_drums_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_drums_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-| <audio controls preload=False><source src="audio/song1_drums_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_drums_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-| <audio controls preload=False><source src="audio/song1_drums_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_drums_mix_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-|
+| | Generated Stem | Overlapped | 
+| --- | --------- | -------------- | 
+| 1 | <audio controls preload=False><source src="audio/song1_drums_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_drums_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 2 | <audio controls preload=False><source src="audio/song1_drums_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_drums_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 3 | <audio controls preload=False><source src="audio/song1_drums_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_drums_mix_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
 
 **Prompt**: "genre: electronic, stem: drums"
 
@@ -44,12 +44,12 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 <audio controls preload=False><source src="audio/song2_no_drums.wav" type="audio/mpeg">Audio not supported by your browser.</audio>
 
-| Generated Stem | Overlapped | 
-| --------- | -------------- |
-| <audio controls preload=False><source src="audio/song2_drums_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_drums_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-| <audio controls preload=False><source src="audio/song2_drums_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_drums_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-| <audio controls preload=False><source src="audio/song2_drums_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_drums_mix_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-|
+| | Generated Stem | Overlapped | 
+| -- | --------- | -------------- |
+| 1 | <audio controls preload=False><source src="audio/song2_drums_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_drums_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 2 | <audio controls preload=False><source src="audio/song2_drums_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_drums_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 3 | <audio controls preload=False><source src="audio/song2_drums_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_drums_mix_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
 
 
 ### 2. Piano
@@ -60,11 +60,10 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 <audio controls preload=False><source src="audio/song1_no_accompaniment.wav" type="audio/mpeg">Audio not supported by your browser.</audio>
 
- Generated Stem | Overlapped | 
-| --------- | -------------- | 
-| <audio controls preload=False><source src="audio/song1_piano_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_piano_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-| <audio controls preload=False><source src="audio/song1_piano_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_piano_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-|
+| | Generated Stem | Overlapped | 
+| --- | --------- | -------------- | 
+| 1 | <audio controls preload=False><source src="audio/song1_piano_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_piano_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 2 | <audio controls preload=False><source src="audio/song1_piano_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_piano_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 
 **Prompt**: "genre: electronic, stem: piano"
@@ -73,13 +72,10 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 <audio controls preload=False><source src="audio/song2_no_piano.wav" type="audio/mpeg">Audio not supported by your browser.</audio>
 
-| Generated Stem | Overlapped | 
-| --------- | -------------- |
-| <audio controls preload=False><source src="audio/song2_piano_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_piano_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-| <audio controls preload=False><source src="audio/song2_piano_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_piano_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-|
-
-
+| | Generated Stem | Overlapped | 
+| --- | --------- | -------------- |
+| 1 | <audio controls preload=False><source src="audio/song2_piano_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_piano_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 2 | <audio controls preload=False><source src="audio/song2_piano_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_piano_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 
 ### 3. Guitar
@@ -90,11 +86,10 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 <audio controls preload=False><source src="audio/song1_no_accompaniment.wav" type="audio/mpeg">Audio not supported by your browser.</audio>
 
- Generated Stem | Overlapped | 
-| --------- | -------------- | 
-| <audio controls preload=False><source src="audio/song1_guitar_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_guitar_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-| <audio controls preload=False><source src="audio/song1_guitar_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_guitar_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-|
+| | Generated Stem | Overlapped | 
+| --- | --------- | -------------- | 
+| 1 | <audio controls preload=False><source src="audio/song1_guitar_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_guitar_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 2 | <audio controls preload=False><source src="audio/song1_guitar_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_guitar_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 
 ### 4. Bass
@@ -105,11 +100,10 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 <audio controls preload=False><source src="audio/song1_no_bass.wav" type="audio/mpeg">Audio not supported by your browser.</audio>
 
- Generated Stem | Overlapped | 
-| --------- | -------------- | 
-| <audio controls preload=False><source src="audio/song1_bass_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_bass_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-| <audio controls preload=False><source src="audio/song1_bass_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_bass_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-|
+| | Generated Stem | Overlapped | 
+| ---| --------- | -------------- | 
+| 1 | <audio controls preload=False><source src="audio/song1_bass_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_bass_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 2 | <audio controls preload=False><source src="audio/song1_bass_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_bass_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: "genre: electronic, stem: bass"
 
@@ -117,10 +111,10 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 <audio controls preload=False><source src="audio/song2_no_bass.wav" type="audio/mpeg">Audio not supported by your browser.</audio>
 
-| Generated Stem | Overlapped | 
-| --------- | -------------- |
-| <audio controls preload=False><source src="audio/song2_bass_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_bass_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-| <audio controls preload=False><source src="audio/song2_bass_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_bass_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
-|
+| | Generated Stem | Overlapped | 
+| --- | --------- | -------------- |
+| 1 | <audio controls preload=False><source src="audio/song2_bass_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_bass_mix_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 2 | <audio controls preload=False><source src="audio/song2_bass_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_bass_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
 
 ### 5. Percussion
