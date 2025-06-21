@@ -35,6 +35,19 @@ The model can generate with high fidelity the following stems for an input song:
     All of them are AI generated. 
 </details>
 
+## Training progress examples
+
+The following examples contain generated drums. The progress of the ControlNet training can be observed in three different training stages.
+
+
+**Prompt**: "genre: rock, stem: drums"
+
+| Epoch 0 Step 0 | Epoch 110 Step 30k | Epoch 345 Step 93k |
+| ----- | -------------| ---------- |
+| The drums are random and do not have anything in common with the input song. | The drums are starting to pick up the tempo and style of the original song. | The drums are almost perfectly aligned with the tempo and style of the song. |
+|  <audio controls preload=False><source src="audio/step_0_epoch_0.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/step_30k_epoch_110.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/step_93k_epoch_345.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
+---
 
 ## Generation examples
 
