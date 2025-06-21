@@ -19,7 +19,6 @@ Stable Audio Open was fine-tuned for Stem Reproduction with the help of the Cont
 
 The model can generate with high fidelity the following stems for an input song: **drums, guitar, piano, bass and percussion**.
 
-<br></br>
 
 ## Exercise: Which missing stem is AI generated?
 
@@ -36,7 +35,6 @@ The model can generate with high fidelity the following stems for an input song:
     All of them are AI generated. 
 </details>
 
-<br></br>
 
 ## Generation examples
 
@@ -54,7 +52,7 @@ The model can generate with high fidelity the following stems for an input song:
 | 2 | <audio controls preload=False><source src="audio/song1_drums_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_drums_mix_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
+
 
 **Prompt**: "genre: electronic, stem: drums"
 
@@ -69,7 +67,7 @@ The model can generate with high fidelity the following stems for an input song:
 | 3 | <audio controls preload=False><source src="audio/song2_drums_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_drums_mix_3.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
+
 
 **Prompt**: "genre: pop, stem: drums"
 
@@ -78,7 +76,6 @@ The model can generate with high fidelity the following stems for an input song:
 | 1 | <audio controls preload=False><source src="audio/33_input_drums.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/33_output_drums.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/33_mix_drums.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
 
 
 ### 2. Piano
@@ -95,7 +92,7 @@ The model can generate with high fidelity the following stems for an input song:
 | 2 | <audio controls preload=False><source src="audio/song1_piano_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_piano_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
+
 
 **Prompt**: "genre: electronic, stem: piano"
 
@@ -109,7 +106,6 @@ The model can generate with high fidelity the following stems for an input song:
 | 2 | <audio controls preload=False><source src="audio/song2_piano_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_piano_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ----
-<br></br>
 
 
 ### 3. Guitar
@@ -126,7 +122,6 @@ The model can generate with high fidelity the following stems for an input song:
 | 2 | <audio controls preload=False><source src="audio/song1_guitar_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_guitar_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
 
 **Prompt**: "genre: pop, stem: guitar"
 
@@ -135,7 +130,7 @@ The model can generate with high fidelity the following stems for an input song:
 | 1 | <audio controls preload=False><source src="audio/8_input.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/8_output.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/8_mix.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
+
 
 ### 4. Bass
 
@@ -151,7 +146,7 @@ The model can generate with high fidelity the following stems for an input song:
 | 2 | <audio controls preload=False><source src="audio/song1_bass_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song1_bass_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
+
 
 **Prompt**: "genre: electronic, stem: bass"
 
@@ -165,7 +160,7 @@ The model can generate with high fidelity the following stems for an input song:
 | 2 | <audio controls preload=False><source src="audio/song2_bass_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/song2_bass_mix_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
+
 
 **Prompt**: "genre: pop, stem: bass"
 
@@ -174,7 +169,7 @@ The model can generate with high fidelity the following stems for an input song:
 | 1 | <audio controls preload=False><source src="audio/18_input_bass.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/18_output_bass.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/18_mix_bass.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
+
 
 ### 5. Percussion
 
@@ -185,7 +180,7 @@ The model can generate with high fidelity the following stems for an input song:
 | 3 | <audio controls preload=False><source src="audio/5_input_perc.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/5_output_perc.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/5_mix_perc.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ---
-<br></br>
+
 
 ## Temporal awareness examples
 
