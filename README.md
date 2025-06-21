@@ -170,6 +170,19 @@ The model can generate with high fidelity the following stems for an input song:
 
 ---
 
+**Prompt**: "genre: rock, stem: bass"
+
+Input song: **Bring Me The Horizon - Avalanche**.
+
+<audio controls preload=False><source src="audio/song_no_bass.wav" type="audio/mpeg">Audio not supported by your browser.</audio>
+
+| | Generated Stem | Overlapped | 
+| --- | --------- | -------------- |
+| 1 | <audio controls preload=False><source src="audio/2_output_bass_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/2_mix_bass_1.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| 2 | <audio controls preload=False><source src="audio/3_output_bass_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3_mix_bass_2.wav" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
+---
+
 
 ### 5. Percussion
 
